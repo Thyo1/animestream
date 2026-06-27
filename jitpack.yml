@@ -1,2 +1,2 @@
-jdk:
-  - openjdk17 # Same JDK as github workflow
+install:
+  - ./gradlew :library:publishToMavenLocal
